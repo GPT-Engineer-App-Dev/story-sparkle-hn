@@ -2,10 +2,10 @@
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center h-screen">
       <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
+        <h1 className="text-4xl font-bold mb-4">Welcome to Our App</h1>
+        <p className="text-lg">Start exploring and enjoy your experience!</p>
       </div>
     </div>
   );
