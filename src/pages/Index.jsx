@@ -2,7 +2,7 @@ import { Heart } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-pink-100 to-red-100 flex flex-col justify-center items-center p-4">
+    <div className="min-h-[calc(100vh-4rem)] bg-gradient-to-b from-pink-100 to-red-100 flex flex-col justify-center items-center p-4">
       <Heart className="text-red-500 w-16 h-16 mb-6 animate-pulse" />
       <h1 className="text-4xl md:text-5xl font-bold text-red-600 mb-4 text-center">Love: The Universal Language</h1>
       <p className="text-xl md:text-2xl text-red-800 mb-8 text-center max-w-2xl">
